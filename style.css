@@ -48,6 +48,7 @@ header .menu .ativo, header .menu a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .principal p{
@@ -58,6 +59,16 @@ header .menu .ativo, header .menu a:hover{
 .principal h1{
     color: white;
     font-size: 60px;
+    animation: aumentar 25s infinite;
+}
+
+@keyframes aumentar {
+    0% {
+        font-size: 60px; /* Tamanho inicial da fonte */
+    }
+    100% {
+        font-size: 100px; /* Tamanho final da fonte */
+    }
 }
 
 .principal .links a{
@@ -152,6 +163,7 @@ header .menu .ativo, header .menu a:hover{
     border: solid 3px rgb(43, 225, 23);
     animation: mover 5s infinite alternate;
     
+    
 }
 
 @keyframes mover {
@@ -164,3 +176,4 @@ header .menu .ativo, header .menu a:hover{
         top: 300px;
     }
 }
+
