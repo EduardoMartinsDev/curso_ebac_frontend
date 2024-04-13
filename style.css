@@ -109,7 +109,7 @@ header .menu .ativo, header .menu a:hover{
     left: 50px;
     background-color: silver;   
     border: solid 3px rgb(242, 206, 7);
-    animation: mover 5s infinite alternate;
+    animation: mover 7s infinite alternate;
 }
 
 
@@ -133,7 +133,7 @@ header .menu .ativo, header .menu a:hover{
     left: 50px;
     background-color: silver;   
     border: solid 3px rgb(198, 22, 198);
-    animation: mover 5s infinite alternate;
+    animation: mover 7s infinite alternate;
 }
 
 
@@ -161,7 +161,7 @@ header .menu .ativo, header .menu a:hover{
     left: 50px;
     background-color:silver;    
     border: solid 3px rgb(43, 225, 23);
-    animation: mover 5s infinite alternate;
+    animation: mover 7s infinite alternate;
     
     
 }
